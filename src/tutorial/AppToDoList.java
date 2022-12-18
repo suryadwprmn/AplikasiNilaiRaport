@@ -1,3 +1,5 @@
+package tutorial;
+
 import java.util.Scanner;
 
 public class AppToDoList {
@@ -9,7 +11,7 @@ public class AppToDoList {
     }
 
     /**
-     * Menampilkan Front Aplikasi To do List
+     * Menampilkan show To do List
      */
     public static void ShowTodoList(){
         for ( var i = 0; i < model.length ; i++){
